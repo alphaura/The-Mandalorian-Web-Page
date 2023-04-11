@@ -8,6 +8,8 @@ body, html {
     color: white;
 }
 
+/* Header Element */
+
 header {
     position: relative;
 }
@@ -34,6 +36,19 @@ header .title {
     margin: 0 auto;
 }
 
+/* Top Navigation Element */
+
+
+.navtop {
+    height: 110px;
+    background-color: rgb(24, 24, 24);
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid black;
+    z-index: 999;
+}
+
+
 .navtop a {
     text-decoration: none;
     color: white;
@@ -53,6 +68,148 @@ header .title {
     list-style: none;
     font-weight: 400;
 }
+
+.navtop .menubar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navtop .menubar .li1 {
+    position: absolute;
+    box-sizing: border-box;
+    height: 15px;
+    right: 8%;
+    top: 50%;
+    transform: translatey(-50%);
+    text-align: center;
+    letter-spacing: 0.76em;
+}
+
+.navtop .menubar .li2 {
+    position: absolute;
+    box-sizing: border-box;
+    height: 15px;
+    right: 25%;
+    top: 50%;
+    transform: translatey(-50%);
+    text-align: center;
+    letter-spacing: 0.76em;
+}
+
+.navtop .menubar .li3 {
+    position: absolute;
+    box-sizing: border-box;
+    height: 15px;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%,-50%);
+    text-align: center;
+    letter-spacing: 0.76em;
+}
+
+.navtop .menubar .li4 {
+    position: absolute;
+    box-sizing: border-box;
+    height: 15px;
+    left: 25%;
+    top: 50%;
+    transform: translatey(-50%);
+    text-align: center;
+    letter-spacing: 0.76em;
+}
+
+.navtop .menubar .li5 {
+    position: absolute;
+    box-sizing: border-box;
+    height: 15px;
+    left: 8%;
+    top: 50%;
+    transform: translatey(-50%);
+    text-align: center;
+    letter-spacing: 0.76em;
+}
+
+.story {
+    position: relative;
+    background-color: rgb(16, 16, 16);
+    height: 426px;
+    padding: 30px 0 30px 0;
+}
+
+.story .storyheading h3{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    height: 114px;
+    line-height: 20px;
+    font-size: 20px;
+    top: 50%;
+    left: 5%;
+    transform: translatey(-50%);
+    letter-spacing: 0.05em;
+}
+
+.story .storyheading span {
+    letter-spacing: 0.14em;
+    font-size: 32px;
+}
+
+.story .colleft {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    box-sizing: border-box;
+    height: auto;
+    width: 418px;
+    line-height: 28px;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 0.14em;
+}
+
+.story .colright {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    box-sizing: border-box;
+    height: auto;
+    width: 418px;
+    line-height: 28px;
+    font-size: 16px;
+    top: 3em;
+    right: 10em;
+}
+
+/* 
+
+<div class="story">
+            <div class="storyheading">
+                <h3>This is the story of the <br><br>
+                    - <br><br>
+                <span>Mandalorian</span></h3>
+            </div>
+
+            <p class="colleft">In a galaxy far, far away, Din Djarin was a skilled bounty hunter known as "the Mandalorian." 
+                He operated during the chaotic period after the fall of the Galactic Empire, and he had a strict 
+                code of honor as a member of the Mandalorian culture. Djarin was physically imposing, standing tall 
+                and wearing a suit of beskar armor that marked him as a formidable warrior. He carried a variety of 
+                weapons and was feared by many.<br>
+                <br>
+                Despite his fearsome reputation, Mando was stoic and reserved,</p>
+            
+            <p class="colright"> preferring to let his actions speak for themselves. He was fiercely loyal to those he cared 
+                about and would go to great lengths to protect them. Mando was also unwavering in his commitment to the Mandalorian 
+                code, which set him apart from other bounty hunters and mercenaries in the galaxy. Despite his serious demeanor, 
+                Mando occasionally showed a wry wit that belied his gruff exterior.</p>
+        </div>
+
+*/
 
 
 h3 {
