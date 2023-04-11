@@ -8,7 +8,23 @@ body, html {
     color: white;
 }
 
-/* Header Element */
+h3 {
+    font-weight: 200;
+}
+
+span {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 200;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+/* HEADER ELEMENT */
 
 header {
     position: relative;
@@ -36,7 +52,7 @@ header .title {
     margin: 0 auto;
 }
 
-/* Top Navigation Element */
+/* TOP NAVIGATION MENU ELEMENT */
 
 
 .navtop {
@@ -129,6 +145,8 @@ header .title {
     letter-spacing: 0.76em;
 }
 
+/* STORY SECTION */
+
 .story {
     position: relative;
     background-color: rgb(16, 16, 16);
@@ -146,7 +164,7 @@ header .title {
     line-height: 20px;
     font-size: 20px;
     top: 50%;
-    left: 5%;
+    left: 12%;
     transform: translatey(-50%);
     letter-spacing: 0.05em;
 }
@@ -183,55 +201,66 @@ header .title {
     line-height: 28px;
     font-size: 16px;
     top: 3em;
-    right: 10em;
+    right: 13em;
 }
+
+/* N1 STAR-FIGHTER SCROLLING TRANSITION */
+
+.n1trans img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.allies {
+    position: relative;
+}
+
+
+
 
 /* 
 
-<div class="story">
-            <div class="storyheading">
-                <h3>This is the story of the <br><br>
-                    - <br><br>
-                <span>Mandalorian</span></h3>
-            </div>
-
-            <p class="colleft">In a galaxy far, far away, Din Djarin was a skilled bounty hunter known as "the Mandalorian." 
-                He operated during the chaotic period after the fall of the Galactic Empire, and he had a strict 
-                code of honor as a member of the Mandalorian culture. Djarin was physically imposing, standing tall 
-                and wearing a suit of beskar armor that marked him as a formidable warrior. He carried a variety of 
-                weapons and was feared by many.<br>
-                <br>
-                Despite his fearsome reputation, Mando was stoic and reserved,</p>
-            
-            <p class="colright"> preferring to let his actions speak for themselves. He was fiercely loyal to those he cared 
-                about and would go to great lengths to protect them. Mando was also unwavering in his commitment to the Mandalorian 
-                code, which set him apart from other bounty hunters and mercenaries in the galaxy. Despite his serious demeanor, 
-                Mando occasionally showed a wry wit that belied his gruff exterior.</p>
+<div class="allies">
+            <h2 class="alliestitle">Allies</h2>
+            <img src="#" alt="" class="img1">
+            <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in velit metus. Suspendisse eget massa nec arcu 
+                ultrices varius vitae ac sapien. Praesent vel tellus turpis. Fusce in magna a risus tincidunt convallis a at sem. Donec 
+                imperdiet nibh eget libero fringilla, vel fringilla velit ullamcorper. Proin sem sapien, elementum vel malesuada ac, 
+                pulvinar quis neque. Sed vel interdum quam.</p>
+            <img src="#" alt="" class="img2">
+            <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in velit metus. Suspendisse eget massa nec arcu 
+                ultrices varius vitae ac sapien. Praesent vel tellus turpis. Fusce in magna a risus tincidunt convallis a at sem. Donec 
+                imperdiet nibh eget libero fringilla, vel fringilla velit ullamcorper. Proin sem sapien, elementum vel malesuada ac, 
+                pulvinar quis neque. Sed vel interdum quam.</p>
+            <img src="#" alt="" class="img3">
+            <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in velit metus. Suspendisse eget massa nec arcu 
+                ultrices varius vitae ac sapien. Praesent vel tellus turpis. Fusce in magna a risus tincidunt convallis a at sem. Donec 
+                imperdiet nibh eget libero fringilla, vel fringilla velit ullamcorper. Proin sem sapien, elementum vel malesuada ac, 
+                pulvinar quis neque. Sed vel interdum quam.</p>
+            <img src="#" alt="" class="img4">
+            <p class="p4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in velit metus. Suspendisse eget massa nec arcu 
+                ultrices varius vitae ac sapien. Praesent vel tellus turpis. Fusce in magna a risus tincidunt convallis a at sem. Donec 
+                imperdiet nibh eget libero fringilla, vel fringilla velit ullamcorper. Proin sem sapien, elementum vel malesuada ac, 
+                pulvinar quis neque. Sed vel interdum quam.</p>
         </div>
 
 */
 
 
-h3 {
-    font-weight: 200;
+
+
+
+
+/* GROGU SCROLLING TRANSITION */
+
+.grogutrans img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    box-sizing: border-box;
 }
-
-span {
-    font-weight: 600;
-}
-
-p {
-    font-weight: 200;
-}
-
-h2 {
-    font-weight: 400;
-}
-
-
-
-
-
 
 
 
