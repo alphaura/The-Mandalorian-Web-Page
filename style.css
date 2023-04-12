@@ -206,6 +206,12 @@ header .title {
 
 /* N1 STAR-FIGHTER SCROLLING TRANSITION */
 
+.n1trans {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .n1trans img {
     width: 100%;
     height: auto;
@@ -213,10 +219,114 @@ header .title {
     box-sizing: border-box;
 }
 
+/* ALLIES SECTION */
+
 .allies {
     position: relative;
+    background-color: rgb(16, 16, 16);
+    height: 1584px;
+    box-sizing: border-box;
 }
 
+.alliestitle {
+    text-align: center;
+    letter-spacing: 0.22em;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+}
+
+
+
+.allies img:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+    box-shadow: 0 0 10px rgb(249 249 249 / 50%);
+}
+
+.allies .img1 {
+    height: 296px;
+    width: 524px;
+    position: absolute;
+    left: 7em;
+    top: 11em;
+    border-radius: 10em 5em 7em 4em;
+}
+
+
+.allies .img2 {
+    position: absolute;
+    height: 296px;
+    width: 524px;
+    right: 7em;
+    top: 33em;
+    border-radius: 15em 5em 7em 8em;
+}
+
+
+.allies .img3 {
+    position: absolute;
+    height: 296px;
+    width: 524px;
+    left: 7em;
+    top: 55em;
+    border-radius: 8em 8em 18em 8em;
+}
+
+
+.allies .img4 {
+    position: absolute;
+    height: 296px;
+    width: 524px;
+    right: 7em;
+    top: 77em;
+    border-radius: 7em 19em 6em 17em;
+}
+
+.allies p{
+    letter-spacing: 0.17em;
+
+}
+
+.allies .p1{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    position: absolute;
+    width: 501px;
+    left: 42em;
+    top: 161px;
+}
+
+.allies .p2{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    position: absolute;
+    width: 501px;
+    left: 42em;
+    top: 32em;
+}
+
+.allies .p3{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    position: absolute;
+    width: 501px;
+    left: 42em;
+    top: 54em;
+}
+
+.allies .p4{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    position: absolute;
+    width: 501px;
+    left: 42em;
+    top: 76em;
+}
 
 
 
