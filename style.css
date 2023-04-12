@@ -6,6 +6,8 @@ body, html {
     padding: 0;
     background-color: rgb(24, 24, 24);
     color: white;
+    height: 100vh;
+    cursor: crosshair;
 }
 
 h3 {
@@ -41,13 +43,6 @@ header img {
     display: block;
 }
 
-header .mandobanner:hover {
-    transform: scale(0.6);
-    transition-duration: 1s;
-    box-shadow: 0 0 10px rgb(249 249 249 / 50%);
-    
-}
-
 header .title {
     position: absolute;
     top: 50%;
@@ -55,13 +50,13 @@ header .title {
     transform: translate(-50%, -50%);
     font-size: 45px;
     width: 965px;
+    text-shadow: 0 0 5px #fff;
     line-height: 58px;
     font-weight: 600;
     text-align: center;
     letter-spacing: 0.87em;
     box-sizing: border-box;
     margin: 0 auto;
-    text-shadow: 0 0 5px #fff;
 
 }
 
@@ -85,7 +80,8 @@ header .title {
 
 .navtop a:hover {
     color: #fff;
-    text-shadow: 0 0 5px #fff;
+    text-shadow: 0 0 5px #fff,
+                 0 0 6px #fff;
 }
 
 .navtop li {
@@ -183,6 +179,11 @@ header .title {
     font-size: 32px;
 }
 
+.story .storyheading h3 a {
+    text-decoration: none;
+    color: white;
+}
+
 .story .colleft {
     position: absolute;
     margin: 0;
@@ -251,14 +252,14 @@ header .title {
 .allies img:hover {
     transform: scale(1.1);
     transition-duration: 1s;
-    box-shadow: 0 0 10px rgb(249 249 249 / 50%);
+    box-shadow: 0 0 15px rgb(249 249 249 / 50%);
 }
 
 .allies .img1 {
     height: 296px;
     width: 524px;
     position: absolute;
-    left: 7em;
+    left: 6em;
     top: 11em;
     border-radius: 10em 5em 7em 4em;
 }
@@ -268,7 +269,7 @@ header .title {
     position: absolute;
     height: 296px;
     width: 524px;
-    right: 7em;
+    right: 6em;
     top: 33em;
     border-radius: 15em 5em 7em 8em;
 }
@@ -278,7 +279,7 @@ header .title {
     position: absolute;
     height: 296px;
     width: 524px;
-    left: 7em;
+    left: 6em;
     top: 55em;
     border-radius: 8em 8em 18em 8em;
 }
@@ -288,13 +289,13 @@ header .title {
     position: absolute;
     height: 296px;
     width: 524px;
-    right: 7em;
+    right: 6em;
     top: 77em;
     border-radius: 7em 19em 6em 17em;
 }
 
 .allies p{
-    letter-spacing: 0.17em;
+    letter-spacing: 0.10em;
 
 }
 
@@ -339,40 +340,6 @@ header .title {
 }
 
 
-
-/* 
-
-<div class="allies">
-            <h2 class="alliestitle">Allies</h2>
-            <img src="#" alt="" class="img1">
-            <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in velit metus. Suspendisse eget massa nec arcu 
-                ultrices varius vitae ac sapien. Praesent vel tellus turpis. Fusce in magna a risus tincidunt convallis a at sem. Donec 
-                imperdiet nibh eget libero fringilla, vel fringilla velit ullamcorper. Proin sem sapien, elementum vel malesuada ac, 
-                pulvinar quis neque. Sed vel interdum quam.</p>
-            <img src="#" alt="" class="img2">
-            <p class="p2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in velit metus. Suspendisse eget massa nec arcu 
-                ultrices varius vitae ac sapien. Praesent vel tellus turpis. Fusce in magna a risus tincidunt convallis a at sem. Donec 
-                imperdiet nibh eget libero fringilla, vel fringilla velit ullamcorper. Proin sem sapien, elementum vel malesuada ac, 
-                pulvinar quis neque. Sed vel interdum quam.</p>
-            <img src="#" alt="" class="img3">
-            <p class="p3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in velit metus. Suspendisse eget massa nec arcu 
-                ultrices varius vitae ac sapien. Praesent vel tellus turpis. Fusce in magna a risus tincidunt convallis a at sem. Donec 
-                imperdiet nibh eget libero fringilla, vel fringilla velit ullamcorper. Proin sem sapien, elementum vel malesuada ac, 
-                pulvinar quis neque. Sed vel interdum quam.</p>
-            <img src="#" alt="" class="img4">
-            <p class="p4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in velit metus. Suspendisse eget massa nec arcu 
-                ultrices varius vitae ac sapien. Praesent vel tellus turpis. Fusce in magna a risus tincidunt convallis a at sem. Donec 
-                imperdiet nibh eget libero fringilla, vel fringilla velit ullamcorper. Proin sem sapien, elementum vel malesuada ac, 
-                pulvinar quis neque. Sed vel interdum quam.</p>
-        </div>
-
-*/
-
-
-
-
-
-
 /* GROGU SCROLLING TRANSITION */
 
 .grogutrans img {
@@ -384,8 +351,131 @@ header .title {
 }
 
 
+/* ENEMIES SECTION */
+
+.enemies {
+    position: relative;
+    background-color: rgb(16, 16, 16);
+    height: 1584px;
+    box-sizing: border-box;
+}
+
+.enemiestitle {
+    text-align: center;
+    letter-spacing: 0.22em;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+}
 
 
+
+.enemies img:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+    box-shadow: 0 0 15px rgb(249 249 249 / 50%);
+}
+
+.enemies .img1 {
+    height: 296px;
+    width: 524px;
+    position: absolute;
+    left: 6em;
+    top: 11em;
+    border-radius: 8em 8em 18em 8em;
+}
+
+
+.enemies .img2 {
+    position: absolute;
+    height: 296px;
+    width: 524px;
+    right: 6em;
+    top: 33em;
+    border-radius: 7em 19em 6em 17em;
+}
+
+
+.enemies .img3 {
+    position: absolute;
+    height: 296px;
+    width: 524px;
+    left: 6em;
+    top: 55em;
+    border-radius: 10em 5em 7em 4em;
+}
+
+
+.enemies .img4 {
+    position: absolute;
+    height: 296px;
+    width: 524px;
+    right: 6em;
+    top: 77em;
+    border-radius: 15em 5em 7em 8em;
+}
+
+.enemies p{
+    letter-spacing: 0.10em;
+
+}
+
+.enemies .p1{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    position: absolute;
+    width: 501px;
+    left: 42em;
+    top: 161px;
+}
+
+.enemies .p2{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    position: absolute;
+    width: 501px;
+    left: 42em;
+    top: 32em;
+}
+
+.enemies .p3{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    position: absolute;
+    width: 501px;
+    left: 42em;
+    top: 54em;
+}
+
+.enemies .p4{
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    position: absolute;
+    width: 501px;
+    left: 42em;
+    top: 76em;
+}
+
+/* FOOTER ELEMENT */
+
+
+footer {
+    position: relative;
+    height: 227px;
+    background-color: rgb(16, 16, 16);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgb(249, 249, 249);
+}
+
+footer nav ul {
+    margin: 0;
+}
 
 footer nav a {
     text-decoration: none;
@@ -394,10 +484,106 @@ footer nav a {
 
 footer nav li {
     list-style: none;
+    box-sizing: border-box;
+    color: rgb(212, 212, 212);
+
+}
+
+footer nav li:hover {
+    text-shadow: 0 0 5px #fff,
+                 0 0 6px #fff,
+                 0 0 7px #fff,
+                 0 0 8px #fff;
+ 
+
+}
+
+footer nav ul .li1 {
+    position: absolute;
+    width: auto;
+    right: 20%;
+    top: 47%;
+    font-size: 12px;
+    letter-spacing: 0.715em;
+
+}
+
+footer nav ul .li2 {
+    position: absolute;
+    width: auto;
+    right: 40%;
+    top: 47%;
+    font-size: 12px;
+    letter-spacing: 0.715em;
+}
+
+footer nav ul .li3 {
+    position: absolute;
+    width: auto;
+    right: 60%;
+    top: 47%;
+    font-size: 12px;
+    letter-spacing: 0.715em;
+}
+
+footer nav ul .li4 {
+    position: absolute;
+    width: auto;
+    right: 80%;
+    top: 47%;
+    font-size: 12px;
+    letter-spacing: 0.715em;
+}
+
+
+footer .footer {
+    position: absolute;
+    font-size: 12px;
+    letter-spacing: 0.33em;
+    right: 66.8%;
+    bottom: 20%;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+footer .linkedin {
+    position: absolute;
+    letter-spacing: 0.305em;
+    font-size: 12px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    bottom: 20%;
+    right: 21.7%;
+}
+
+footer .logo {
+    position: absolute;
+    bottom: -30%;
 }
 
 
 
+/* 
+
+  <footer>
+        <nav>
+            <ul>
+                
+                <li class="li1"><a href="#">Enemies</a></li>
+                <li class="li2"><a href="#">Allies</a></li>
+                <li class="li3"><a href="#">Story</a></li>
+                <li class="li4"><a href="#">Home</a></li>
+            </ul>
+        </nav>
+
+        <p class="footer">This page was created by Kyle M.</p>
+        <p class="linkedin">Reach out on; <a href="https://www.linkedin.com/in/kylemagri/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn Logo"></a></p>
+
+    </footer>
+
+*/
 
 
 
