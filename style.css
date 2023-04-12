@@ -28,6 +28,9 @@ h2 {
 
 header {
     position: relative;
+    background-color: rgba(0, 0, 0, 1)
+
+
 }
 
 header img {
@@ -35,6 +38,14 @@ header img {
     height: auto;
     margin: 0;
     box-sizing: border-box;
+    display: block;
+}
+
+header .mandobanner:hover {
+    transform: scale(0.6);
+    transition-duration: 1s;
+    box-shadow: 0 0 10px rgb(249 249 249 / 50%);
+    
 }
 
 header .title {
@@ -50,6 +61,8 @@ header .title {
     letter-spacing: 0.87em;
     box-sizing: border-box;
     margin: 0 auto;
+    text-shadow: 0 0 5px #fff;
+
 }
 
 /* TOP NAVIGATION MENU ELEMENT */
@@ -67,17 +80,12 @@ header .title {
 
 .navtop a {
     text-decoration: none;
-    color: white;
+    color: rgb(212, 212, 212);
 }
 
 .navtop a:hover {
     color: #fff;
-    text-shadow: 0 0 10px #fff,
-                 0 0 20px #fff,
-                 0 0 40px #fff,
-                 0 0 80px #fff,
-                 0 0 120px #fff,
-                 0 0 160px #fff;
+    text-shadow: 0 0 5px #fff;
 }
 
 .navtop li {
@@ -120,6 +128,7 @@ header .title {
     top: 50%;
     transform: translate(50%,-50%);
     text-align: center;
+    color: rgb(212, 212, 212);
     letter-spacing: 0.76em;
 }
 
@@ -217,6 +226,7 @@ header .title {
     height: auto;
     margin: 0;
     box-sizing: border-box;
+    display: block;
 }
 
 /* ALLIES SECTION */
@@ -370,6 +380,7 @@ header .title {
     height: auto;
     margin: 0;
     box-sizing: border-box;
+    display: block;
 }
 
 
