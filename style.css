@@ -84,6 +84,39 @@ header .title {
                  0 0 6px #fff;
 }
 
+.navtop .menubar .menu {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.navtop .menubar:hover .menu {
+    opacity: 0;
+}
+
+.navtop .menubar .way {
+    position: absolute;
+    right: 6.5%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.navtop .menubar:hover .way {
+    opacity: 1;
+}
+
+/* <nav class="navtop">
+            <div class="menubar">
+                <ul>
+                    <li class="li1"><a href="#enemies" >Enemies</a></li>
+                    <li class="li2"><a href="#allies" >Allies</a></li>
+                    <li class="li3">This is the <span class="1st">Menu</span><span class="way">Way</span></li>
+                    <li class="li4"><a href="#story" >Story</a></li>
+                    <li class="li5"><a href="#home" >Home</a></li>
+                </ul>
+            </div>
+        </nav>
+ */
+
 .navtop li {
     list-style: none;
     font-weight: 400;
@@ -546,6 +579,7 @@ footer .footer {
     margin: 0;
     padding: 0;
 }
+
 
 footer .linkedin {
     position: absolute;
