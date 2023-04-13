@@ -104,18 +104,6 @@ header .title {
     opacity: 1;
 }
 
-/* <nav class="navtop">
-            <div class="menubar">
-                <ul>
-                    <li class="li1"><a href="#enemies" >Enemies</a></li>
-                    <li class="li2"><a href="#allies" >Allies</a></li>
-                    <li class="li3">This is the <span class="1st">Menu</span><span class="way">Way</span></li>
-                    <li class="li4"><a href="#story" >Story</a></li>
-                    <li class="li5"><a href="#home" >Home</a></li>
-                </ul>
-            </div>
-        </nav>
- */
 
 .navtop li {
     list-style: none;
@@ -215,6 +203,13 @@ header .title {
 .story .storyheading h3 a {
     text-decoration: none;
     color: white;
+}
+
+.story .storyheading img {
+    position: absolute;
+    width: 35%;
+    top: -33%;
+    right: -1%;
 }
 
 .story .colleft {
