@@ -13,6 +13,7 @@ body {
     margin: 0;
     background-color: black;
     color: white;
+    position: relative;
 }
 
 @keyframes rotate {
@@ -133,10 +134,6 @@ h2 {
     width: 100%;
 }
 
-
-h2 {
-
-}
 
 
 /* 
